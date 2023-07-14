@@ -1,0 +1,95 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="奇异人生 MOD修改工具V0.1.0版 By Alice的AX400" Height="500" Width="400">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="119*"/>
+            <ColumnDefinition Width="81*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="浏览" Margin="0,0,13,328" RenderTransformOrigin="0.5,0.5" Click="Button_Click1" Height="23" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="52" Grid.Column="1">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.092"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Image Height="37" Margin="24,22,0,0" VerticalAlignment="Top" Source="/319630_logo.png" HorizontalAlignment="Left" Width="176"/>
+        <Label Content="奇异人生 MOD修改工具V0.1.0" Height="36" Margin="0,73,0,0" VerticalAlignment="Top" FontSize="16" HorizontalAlignment="Right" Width="258" Grid.ColumnSpan="2"/>
+        <TextBox Name="txtPath" Margin="24,0,75,328" TextWrapping="Wrap" Text="..." Height="22" VerticalAlignment="Bottom" Grid.ColumnSpan="2"/>
+        <Label Content="源UPK路径：" Margin="24,0,75,350" Height="25" VerticalAlignment="Bottom" Grid.ColumnSpan="2"/>
+        <Label Content="封包UPK文件夹包含的上级路径：" Margin="24,0,75,298" Height="25" VerticalAlignment="Bottom" Grid.ColumnSpan="2"/>
+        <TextBox Name="txtPath1" Margin="24,0,75,276" TextWrapping="Wrap" Text="..." Height="22" VerticalAlignment="Bottom" Grid.ColumnSpan="2"/>
+        <Button Content="浏览" Margin="0,0,13,276" RenderTransformOrigin="0.5,0.5" Click="Button_Click" Height="23" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="52" Grid.Column="1">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.092"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <CheckBox Content="启用VERIFY转换模式" Margin="27,0,75,182" Height="23" VerticalAlignment="Bottom" IsChecked="True" Checked="CheckBox_Checked" Unchecked="checkBox_Unchecked" Grid.ColumnSpan="2"/>
+        <Label Name="Lableyz1" Content="游戏验证文件路径：" Margin="24,0,75,246" Height="25" VerticalAlignment="Bottom" Grid.ColumnSpan="2"/>
+        <TextBox Name="TxtPach2" Margin="24,0,75,220" TextWrapping="Wrap" Text="..." Height="22" VerticalAlignment="Bottom" Grid.ColumnSpan="2"/>
+        <Button Name="buttonyz2" Content="浏览" Margin="0,0,13,220" RenderTransformOrigin="0.5,0.5" Click="Button_Click2" Height="23" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="52" Grid.Column="1">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.092"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Name="cb" Content="拆包UPK文件" Margin="19,0,19,147" RenderTransformOrigin="0.5,0.5" Click="cbupk" Height="23" VerticalAlignment="Bottom" Grid.ColumnSpan="2">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.092"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Name="db" Content="生成UPK文件" Margin="19,0,19,108" RenderTransformOrigin="0.5,0.5" Click="scupk" Height="23" VerticalAlignment="Bottom" Grid.ColumnSpan="2">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.092"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Name="Ca1" Content="转为VERIFY版验证模式" Margin="19,0,19,69" RenderTransformOrigin="0.5,0.5" Click="cai" Height="23" VerticalAlignment="Bottom" Grid.ColumnSpan="2">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.092"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Name="jc" Content="不会使用？点此查看教程" Margin="19,0,19,30" RenderTransformOrigin="0.5,0.5" Click="jci" Height="23" VerticalAlignment="Bottom" Grid.ColumnSpan="2">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.092"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+
+    </Grid>
+</Window>
