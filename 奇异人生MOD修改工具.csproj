@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Images\aj968-7ijmy-001.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="319630_logo.png" />
+    <None Remove="Images\319630_logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\aj968-7ijmy-001.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="WindowsFormsIntegration">
+      <HintPath>..\..\..\..\..\Windows\Microsoft.NET\Framework\v4.0.30319\WPF\WindowsFormsIntegration.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  
+	<ItemGroup>
+    <FrameworkReference Include="Microsoft.WindowsDesktop.App" />
+  </ItemGroup>
+  
+	<ItemGroup>
+	  <PackageReference Include="WindowsAPICodePack" Version="7.0.4" />
+	</ItemGroup>
+  
+  
+
+  <ItemGroup>
+    <Resource Include="319630_logo.png" />
+    <Resource Include="Images\319630_logo.png" />
+  </ItemGroup>
+
+</Project>
