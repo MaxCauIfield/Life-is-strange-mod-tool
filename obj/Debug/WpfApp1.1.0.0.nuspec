@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>WpfApp1</id>
+    <version>1.0.0</version>
+    <authors>WpfApp1</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="WindowsAPICodePack" version="7.0.4" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App" />
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net6.0-windows7.0/Images/aj968-7ijmy-001.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\Administrator\Desktop\test WPF\WpfApp1\bin\Debug\net6.0-windows\WpfApp1.runtimeconfig.json" target="lib\net6.0-windows7.0\WpfApp1.runtimeconfig.json" />
+    <file src="C:\Users\Administrator\Desktop\test WPF\WpfApp1\bin\Debug\net6.0-windows\WpfApp1.dll" target="lib\net6.0-windows7.0\WpfApp1.dll" />
+    <file src="C:\Users\Administrator\Desktop\test WPF\WpfApp1\Images\aj968-7ijmy-001.ico" target="content\Images\aj968-7ijmy-001.ico" />
+    <file src="C:\Users\Administrator\Desktop\test WPF\WpfApp1\Images\aj968-7ijmy-001.ico" target="contentFiles\any\net6.0-windows7.0\Images\aj968-7ijmy-001.ico" />
+  </files>
+</package>
